@@ -1,0 +1,27 @@
+<html xmlns:wicket>
+<body>
+<wicket:panel>
+
+	<form wicket:id="form">
+
+	<table width="100%" border="0" cellspacing="0" cellpadding="0"
+		class="table">
+		<tr>
+			<th colspan="3">Phone Numbers</th>
+		</tr>
+		<tr wicket:id="phoneNumbers">
+			<td><span wicket:id="type"></span></td>
+			<td><span wicket:id="number"></span></td>
+			<td style="text-align:center;"><a wicket:id="delete" class="editLink">Delete</a></td>
+		</tr>
+		<tr>
+			<td><input type="text" wicket:id="newType"/></td>
+			<td><input type="text" wicket:id="newNumber"/></td>
+			<td style="text-align:center;"><a wicket:id="add" class="editLink">Add</a></td>
+		</tr>
+	</table>
+
+	</form>
+</wicket:panel>
+</body>
+</html>

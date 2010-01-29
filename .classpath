@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resource"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/slf4j-api-1.4.2.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/slf4j-log4j12-1.4.2.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/spring-2.5.2.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/spring-beans-2.5.2.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/spring-context-2.5.2.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/spring-core-2.5.2.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/spring-test-2.5.2.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/spring-web-2.5.2.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/cglib-2.1_3.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/wicket-1.4-rc6.jar" sourcepath="lib-sources/wicket-1.4-rc6-sources.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/wicket-extensions-1.4-rc6.jar" sourcepath="lib-sources/wicket-extensions-1.4-rc6-sources.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/wicket-ioc-1.4-rc6.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/wicket-spring-1.4-rc6.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

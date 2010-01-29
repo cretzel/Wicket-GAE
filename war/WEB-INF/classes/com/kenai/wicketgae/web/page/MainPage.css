@@ -1,0 +1,149 @@
+@CHARSET "ISO-8859-1";
+
+body,h1,h2,h3,div,span,p,input,textarea,select table,th,tr,td {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 22px;
+	color: #ffffff;
+	padding: 4px;
+	background-color: #445566;
+	border-bottom: 2px solid #778899;
+}
+
+.loginPanel {
+	float: right;
+}
+
+.loginLabel {
+	float: right;
+}
+
+.loginLabel {
+	position: relative;
+	top: -40px;
+	left: -10px;
+}
+
+.loginLabel .username {
+	font-size: 12px;
+	color: #ffffff;
+	margin-right: 20px;
+}
+
+.loginLabel .editLink {
+	border: 1px solid #cccccc;
+}
+
+.loginLabel .editLink span {
+	font-size: 12px;
+}
+
+.table {
+	border-top: 1px solid #778899;
+	border-left: 1px solid #778899;
+	border-right: 1px solid #778899;
+}
+
+.table .even td {
+	background-color: #ffffff;
+}
+
+.table .odd td {
+	background-color: #ffffff;
+}
+
+.table th {
+	text-align: left;
+	background-color: #445566;
+	padding: 2px;
+	color: #ffffff;
+	border-bottom: 1px solid #aabbcc;
+}
+
+.table td {
+	text-align: left;
+	background-color: #ffffff;
+	padding: 2px;
+	border-bottom: 1px solid #aabbcc;
+}
+
+.table .navigation td {
+	background-color: #445566;
+	color: #ffffff;
+}
+
+.table .navigation em {
+	background-color: #778899;
+	color: #ffffff;
+	font-style: normal;
+	padding: 2px 4px 2px 4px;
+	margin: 0;
+}
+
+.table .navigation a {
+	background-color: #556677;
+	color: #ffffff;
+	text-decoration: none;
+	font-style: normal;
+	padding: 2px 4px 2px 4px;
+	margin: 0;
+}
+
+.editPanelContainer {
+	margin-top: 30px;
+}
+
+.editPanelContainer th {
+	text-align: left;
+	background-color: #445566;
+	padding: 5px 10px 5px 5px;
+	color: #ffffff;
+}
+
+.editPanelContainer table {
+	border: 1px solid #555;
+}
+
+.editPanelContainer td {
+	background-color: #445566;
+	padding: 5px 10px 5px 10px;
+}
+
+.editPanelContainer input {
+	background-color: #ffffff;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid black;
+}
+
+a.editLink {
+	text-decoration: none;
+	background-color: #778899;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0px 4px 0px 4px;
+	margin: 2px 2px 2px 2px;
+	border: 1px solid #445566;
+}
+
+.feedbackPanelContainer {
+	margin-top: 30px;
+	display: none;
+}
+
+.feedbackPanelContainer div {
+	background-color: #445566;
+	width: 400px;
+	height: 158px;
+	overflow: auto;
+	color: #ffffff;
+	border: 1px solid #555;
+	margin: 0;
+	padding: 0;
+}
+
+.feedbackPanelContainer .feedbackPanel {
+	
+}
